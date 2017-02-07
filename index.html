@@ -15,9 +15,10 @@
 
   <body>
 
-    <div class="box" style="height:888px;overflow:hidden">
-      <a href="list.html" id="banner1"><img src="./assets/images/p-1.png" /></a>
-      <a href="list.html" id="banner2"><img src="./assets/images/p-1-2.png" /></a>
+    <div class="box banner">
+      <div class="cau">
+        <img src="./assets/images/p-a.png" id="banner1" />
+      </div>
     </div>
 
     <div class="box">
@@ -35,12 +36,10 @@
         var flag = 1;
         setInterval(function(){
           if(flag % 2 == 0){
-            $('#banner1').fadeIn();
-            $('#banner2').fadeOut();
+            $('#banner1').animate({left:'-1050px'});
           }
           else{
-            $('#banner1').fadeOut();
-            $('#banner2').fadeIn();
+            $('#banner1').animate({left:'0px'});
           }
           flag++;
         }, 3000)

@@ -7,3 +7,23 @@
   width: 1280px;
   margin: 0 auto;
 }
+
+.banner{
+  height: 888px;
+  position: relative;
+  background: url('../images/p-1.png') no-repeat;
+}
+
+.cau {
+  position: absolute;
+  width: 1050px;
+  height: 590px;
+  overflow: hidden;
+  top: 143px;
+  left: 113px;
+}
+.cau img{
+  position: absolute;
+  left: 0;
+  top: 0;
+}
