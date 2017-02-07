@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Solco Healthcare</title>
+    <meta name="keyword" content="">
+    <meta name="description" content="">
+
+    <link href="./assets/css/custom.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <div class="box" style="height:888px;overflow:hidden">
+      <a href="list.html" id="banner1"><img src="./assets/images/p-1.png" /></a>
+      <a href="list.html" id="banner2"><img src="./assets/images/p-1-2.png" /></a>
+    </div>
+
+    <div class="box">
+      <a href="list.html"><img src="./assets/images/p-2.png" /></a>
+    </div>
+
+    <div class="box">
+      <a href="list.html"><img src="./assets/images/p-3.png" /></a>
+    </div>
+
+    <script src="./assets/js/jquery.min.js"></script>
+    <script>
+      $(document).ready(function(){
+
+        var flag = 1;
+        setInterval(function(){
+          if(flag % 2 == 0){
+            $('#banner1').fadeIn();
+            $('#banner2').fadeOut();
+          }
+          else{
+            $('#banner1').fadeOut();
+            $('#banner2').fadeIn();
+          }
+          flag++;
+        }, 3000)
+
+      });
+    </script>
+  </body>
+</html>
