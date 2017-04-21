@@ -851,12 +851,13 @@ note: moved to layout
 /* 2.2.1 Navbar: Brand */
 
 .navbar-brand {
-	height: 58px;
+	height: 50px;
 	width: 167px;
-	background: url(../images/logo32.png) no-repeat 0 0;
+	background: url(../images/logo.png) no-repeat 0 0;
+	background-size: cover;
 }
 .no-svg .navbar-brand {
-	background: url(../images/logo32.png) no-repeat center center;
+	background: url(../images/logo.png) no-repeat center center;
 }
 @media (max-width: 767px) {
   .page-navbar .container {
@@ -872,7 +873,7 @@ note: moved to layout
 	.navbar-header .navbar-brand {
 		display: inline-block;
 		float: none;
-		height: 52px;
+		height: 45px;
 		width: 152px;
 	}
 	.navbar-open .navbar-toggle span {
@@ -941,7 +942,7 @@ note: moved to layout
 /* 2.2.4 Navbar: Main */
 
 .navbar-main {
-	margin: 0;
+	margin: 3px 25px 0 0;
 }
 .navbar-main > li > a {
 	padding: 15px 24px;
@@ -974,7 +975,7 @@ note: moved to layout
 }
 @media (min-width: 768px) {
 	.navbar-main > li:first-child {
-		display: none;
+		/*display: none;*/
 	}
 }
 @media (max-width: 991px) {
