@@ -1604,15 +1604,11 @@ note: moved to layout
   display: inline-block;
 	height: 240px;
 	width: 244px;
-	background: url(../img/section/bird-map.svg);
-	background-size: cover;
 }
 .bird-tools {
   display: inline-block;
 	height: 240px;
 	width: 354px;
-	background: url(../img/section/bird-tools.svg);
-	background-size: cover;
 }
 .bird-tools-lg {
 	height: 280px;
@@ -1622,8 +1618,6 @@ note: moved to layout
   display: inline-block;
 	height: 300px;
 	width: 408px;
-	background: url(../img/section/bird-shield.svg);
-	background-size: cover;
 }
 
 /* 2.5 Page: MAIN */
@@ -2334,15 +2328,7 @@ a.package:hover {
 	background-position: center center;
 	background-size: cover;
 }
-.service-icon-compute {
-	background-image: url(../img/services/compute.svg);
-}
-.service-icon-storage {
-	background-image: url(../img/services/storage.svg);
-}
-.service-icon-dedicated {
-	background-image: url(../img/services/dedicated.svg);
-}
+
 .service .link {
   font-size: 16px;
 }
@@ -2457,14 +2443,7 @@ a.package:hover {
 .location-map {
 	position: relative;
 }
-.location-map .map {
-	background: url(../img/map.svg) no-repeat center center;
-	background-size: cover;
-}
-.location-map .map-grey {
-	background: url(../img/map-grey.svg) no-repeat center center;
-	background-size: cover;
-}
+
 .location-container {
 	position: absolute;
 	top: 50%;
@@ -5173,13 +5152,11 @@ a.panel-location.location-warning:hover .location-btn {
 	top: 88px;
 	height: 63px;
 	width: 176px;
-	background: url(../img/section/stop-watch-lines.svg);
 }
 .server {
 	position: relative;
 	height: 112px;
 	width: 90px;
-	background: url(../img/section/server.svg);
 }
 .server-md {
 	height: 184px;
@@ -5195,7 +5172,6 @@ a.panel-location.location-warning:hover .location-btn {
 	top: 25px;
 	height: 63px;
 	width: 161px;
-	background: url(../img/section/server-lines.svg);
 }
 
 /* IMAGE: Advanced Networking */
@@ -5345,8 +5321,6 @@ a.panel-location.location-warning:hover .location-btn {
 	position: relative;
 	height: 128px;
 	width: 128px;
-	background-image: url(../img/section/bird-fast.svg);
-	background-size: cover;
 }
 .bird-fast-lines {
 	position: absolute;
@@ -5354,7 +5328,6 @@ a.panel-location.location-warning:hover .location-btn {
 	top: 45px;
 	height: 63px;
 	width: 202px;
-	background-image: url(../img/section/bird-fast-lines.svg);
 }
 .bird-fast-lg {
 	height: 256px;

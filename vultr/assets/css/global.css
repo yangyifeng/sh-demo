@@ -800,7 +800,7 @@ div.flex3column_left input.tabmenu_radio:checked + label	{ font-weight:normal; }
 .fonticon_gb,
 .fonticon_jp,
 .fonticon_nl,
-.fonticon_us		{ display:inline-block; height:36px; width:54px; background-image:url(/_images/flags/flags.png?v=2); vertical-align:middle; border-radius:3px;  }
+.fonticon_us		{ display:inline-block; height:36px; width:54px; vertical-align:middle; border-radius:3px;  }
 .fonticon_au		{ background-position:-108px -36px; }
 .fonticon_de		{ background-position:0 0; }
 .fonticon_fr		{ background-position:-54px 0; }
@@ -808,7 +808,7 @@ div.flex3column_left input.tabmenu_radio:checked + label	{ font-weight:normal; }
 .fonticon_jp		{ background-position:-54px -36px; }
 .fonticon_nl		{ background-position:-108px 0; }
 .fonticon_us		{ background-position:0 -36px; }
-.fonticon_sg    { display:inline-block; height:36px; width:54px;background-image:url(/_images/flags/Flag_of_Singapore_v2.png); vertical-align:middle; border-radius:3px; }
+.fonticon_sg    { display:inline-block; height:36px; width:54px; vertical-align:middle; border-radius:3px; }
 
 .fonticon_cm_au,
 .fonticon_cm_de,
@@ -816,7 +816,7 @@ div.flex3column_left input.tabmenu_radio:checked + label	{ font-weight:normal; }
 .fonticon_cm_gb,
 .fonticon_cm_jp,
 .fonticon_cm_nl,
-.fonticon_cm_us		{ display:inline-block; height:18px; width:27px; background:url(/_images/flags/flags-sm.png?v=2); background-size:108px 36px; border-radius:3px; vertical-align:middle; }
+.fonticon_cm_us		{ display:inline-block; height:18px; width:27px;border-radius:3px; vertical-align:middle; }
 .fonticon_cm_au		{ background-position:-54px -18px; }
 .fonticon_cm_de		{ background-position:0 0; }
 .fonticon_cm_fr		{ background-position:-27px 0; }
@@ -824,7 +824,7 @@ div.flex3column_left input.tabmenu_radio:checked + label	{ font-weight:normal; }
 .fonticon_cm_jp		{ background-position:-27px -18px; }
 .fonticon_cm_nl		{ background-position:-54px 0; }
 .fonticon_cm_us		{ background-position:0 -18px; }
-.fonticon_cm_sg   { display:inline-block; height:18px; width:27px; border-radius:3px; vertical-align:middle;  background-image:url(/_images/flags/Flag_of_Singapore_sm.png); }
+.fonticon_cm_sg   { display:inline-block; height:18px; width:27px; border-radius:3px; vertical-align:middle;  }
 
 /* CC icons */
 .ccicon     { vertical-align: middle; }

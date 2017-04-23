@@ -29,7 +29,6 @@
   left: -80px;
   height: 54px;
   width: 300px;
-  background: url(../img/section/lines.svg);
 }
 .image-lines-right {
   left: auto;
@@ -195,8 +194,6 @@
 	float: none;
   height: 32px;
 	width: 32px;
-	background-image: url(../img/section/bird2.svg);
-	background-size:32px auto;
 	font-size: 0;
 	line-height: 32px;
 	text-indent: -9999px;
@@ -858,8 +855,6 @@
   content:"";
   width: 28px;
   height: 31px;
-  background: url(../img/panel/cursor-pointer@2x.png);
-  background-size: cover;
 }
 .animated .cp-cursor:after {
   position: absolute;

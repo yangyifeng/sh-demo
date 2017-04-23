@@ -7801,7 +7801,6 @@ button.close {
 	height: 36px;
 	width: 54px;
   margin-right: 10px;
-	background: url(../img/flags.png?v=2);
   vertical-align: middle;
 	-webkit-border-radius: 3px;
 			    border-radius: 3px;
@@ -7811,7 +7810,6 @@ button.close {
   height: 36px;
   width: 54px;
   margin-right: 10px;
-  background: url(../img/Flag_of_Singapore_v2.png);
   vertical-align: middle;
   -webkit-border-radius: 3px;
           border-radius: 3px;
@@ -7842,8 +7840,6 @@ button.close {
 	display: inline-block;
 	height: 18px;
 	width: 27px;
-	background: url(../img/flags.png?v=2);
-	background-size: 108px 36px;
 	-webkit-border-radius: 3px;
 			    border-radius: 3px;
 }
@@ -7881,8 +7877,6 @@ button.close {
 	display: inline-block;
 	height: 13px;
 	width: 16px;
-	background: url(../img/flags-sm.png?v=2);
-	background-size: 66px 26px;
 	-webkit-border-radius: 2px;
 			    border-radius: 2px;
 }
@@ -7912,7 +7906,6 @@ button.close {
   height: 13px;
   width: 16px;
   vertical-align: middle;
-  background: url(../img/Flag_of_Singapore_xs.png);
   -webkit-border-radius: 2px;
           border-radius: 2px;
   margin-right: 4px;
