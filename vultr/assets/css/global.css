@@ -1442,8 +1442,8 @@ tbody.collapse.in {
 
 .accordion > li .plus-icon {
 	position: absolute;
-	left: 0;
-	top: 6px;
+	left: -22px;
+	top: 13px;
 }
 .accordion > li.open .plus-icon span {
 	background-color: #1e88e5;
