@@ -2454,6 +2454,10 @@ a.package:hover {
 }
 
 /* 3.8 Section: Map */
+.location-map .map {
+    background: url(../images/map.svg) no-repeat center center;
+    background-size: cover;
+}
 
 /* 3.8.1 Map: Large */
 
@@ -2943,8 +2947,8 @@ a.package:hover {
 	left: 250px;
 }
 .location-tokyo {
-	top: 201px;
-	right: 162px;
+	top: 246px;
+	right: 239px;
 }
 .location-tokyo .location-name {
 	bottom: 50px;

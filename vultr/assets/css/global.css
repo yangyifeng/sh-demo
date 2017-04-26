@@ -3511,7 +3511,6 @@ table [data-url]:hover {
  }
 
 .btn-primary {
-  color: #fff !important;
   background-color: #1e88e5;
   border-color: #1e88e5;
 	transition: all ease-in .15s;
