@@ -1467,7 +1467,7 @@ note: moved to layout
 /* 2.4.7 Banner: Home */
 
 .page-banner-home:after {
-	height: 750px;
+	height: 380px;
 }
 .page-banner-home .slogan-desc {
   font-size: 20px;
