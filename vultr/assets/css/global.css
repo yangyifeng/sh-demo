@@ -3592,3 +3592,10 @@ table [data-url]:hover {
 .alert-body > p {
 	margin: 0;
 }
+
+
+@media (max-width: 767px) {
+    .nav-tabs > li{
+        display: block;
+    }
+}
