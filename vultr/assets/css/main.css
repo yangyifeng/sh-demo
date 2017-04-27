@@ -1896,6 +1896,10 @@ note: moved to layout
 	position: relative;
 	margin-left: auto;
 	margin-right: auto;
+  text-align: center;
+}
+.section-image .image > i{
+  line-height: 180px;
 }
 .section-image .browser {
   max-width: 440px;
@@ -7255,4 +7259,16 @@ a.panel-location.location-warning:hover .location-btn {
 		-webkit-transform: scale(0.7);
 		transform: scale(0.7);
 	}
+}
+
+.index-guide .feature img {
+  width: 100px;
+}
+.index-guide .feature h4{
+  margin-top: 20px;
+  margin-bottom: 70px;
+  color: rgba(196, 227, 255, 0.8);
+}
+.index-guide .feature a:hover h4{
+  color: #FFF;
 }
