@@ -1,0 +1,249 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>page</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <style type="text/css">
+      body{
+        background: #f0f0f2;
+      }
+      .sell-page-wrap{
+        width: 100%;
+        max-width: 540px;
+        margin: 20px auto;
+        border: 1px #c0c0c1 solid;
+        background: #FFF;
+      }
+      .sell-page-wrap .form-control{
+        padding: 6px 5px;
+      }
+      .sell-page-wrap .narrow{
+        width: 40px;
+        margin-left: 5px;
+        margin-right: 5px;
+        display: inline-block;
+      }
+      .sell-page-wrap .multiple{
+        height: 200px;
+      }
+      .sell-page-wrap .from{
+        width: 150px;
+        border: 1px #d5d5d5 solid;
+        display: block;
+        text-align: center;
+        margin: 50px auto;
+        padding: 40px 0;
+        color: #434343;
+        position: relative;
+        overflow: hidden;
+      }
+      .sell-page-wrap .from .triangle{
+        display: none;
+      }
+      .sell-page-wrap .from:hover{
+        text-decoration: none;
+      }
+      .sell-page-wrap .from .glyphicon{
+        font-size: 25px;
+        display: block;
+      }
+      .sell-page-wrap .from .glyphicon-class{
+        display: block;
+        margin-top: 20px;
+      }
+      .sell-page-wrap .from.active{
+        border: 2px #e51e24 solid;
+      }
+      .sell-page-wrap .from.active .glyphicon{
+        color: #e51e24;
+      }
+      .sell-page-wrap .from.active .triangle{
+        display: block;
+        width: 20px;
+        height: 20px;
+        background: #e51e24;
+        position: absolute;
+        bottom: -11px;
+        right: -11px;
+        transform:rotate(45deg);
+      }
+    </style>
+  </head>
+
+  <body>
+
+    <div class="sell-page-wrap">
+      <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-5">
+            <a href="#" class="from active">
+              <span class="glyphicon glyphicon-refresh" aria-hidden="true"></span>
+              <span class="glyphicon-class">来源于本机构</span>
+              <span class="triangle"></span>
+            </a>
+        </div>
+        <div class="col-md-5">
+            <a href="#" class="from">
+              <span class="glyphicon glyphicon-share-alt" aria-hidden="true"></span>
+              <span class="glyphicon-class">来源于其他机构</span>
+              <span class="triangle"></span>
+            </a>
+        </div>
+        <div class="col-md-1"></div>
+      </div>
+    </div>
+
+    <div class="sell-page-wrap">
+      <br />
+      <form class="form-horizontal">
+        <div class="row text-center">
+              <input type="text" class="form-control narrow" placeholder="0">.
+              <input type="text" class="form-control narrow" placeholder="0">.
+              <input type="text" class="form-control narrow" placeholder="0">.
+              <input type="text" class="form-control narrow" placeholder="0">
+              -- 
+              <input type="text" class="form-control narrow" placeholder="0">.
+              <input type="text" class="form-control narrow" placeholder="0">.
+              <input type="text" class="form-control narrow" placeholder="0">.
+              <input type="text" class="form-control narrow" placeholder="255">
+        </div>
+        <br />
+        <div class="form-group">
+          <label class="col-sm-4 control-label">管理注册机构</label>
+          <div class="col-sm-4">
+            <select class="form-control">
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="col-sm-4 control-label">是否为历史遗留地址</label>
+          <div class="col-sm-4">
+            <div class="checkbox">
+              <label>
+                <input type="checkbox">
+              </label>
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="col-sm-4 control-label">首次分配日期</label>
+          <div class="col-sm-4">
+            <input type="date" class="form-control" placeholder="YYYY-MM-DD">
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="col-sm-4 control-label">上次广播日期</label>
+          <div class="col-sm-4">
+            <input type="date" class="form-control" placeholder="YYYY-MM-DD">
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="col-sm-4 control-label">历史总广播日</label>
+          <div class="col-sm-4">
+            <input type="number" class="form-control" placeholder="0">
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="col-sm-4 control-label">总转移次数</label>
+          <div class="col-sm-4">
+            <input type="number" class="form-control" placeholder="0">
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="col-sm-4 control-label">总转移次数</label>
+          <div class="col-sm-4">
+            <input type="number" class="form-control" placeholder="0">
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="col-sm-4 control-label">出售单价</label>
+          <div class="col-sm-4">
+            <div class="input-group">
+              <input type="number" class="form-control" placeholder="0.00">
+              <div class="input-group-addon">USD</div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-1">
+          </div>
+          <div class="col-md-5 text-left">
+              <a href="#" class="btn btn-default">上一步</a>
+          </div>
+          <div class="col-md-5 text-right">
+              <a href="#" class="btn btn-default">下一步</a>
+          </div>
+          <div class="col-md-1">
+          </div>
+        </div>
+      </form>
+      <br />
+    </div>
+
+
+    <div class="sell-page-wrap">
+      <br />
+      <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-11">
+          10.10.1.0 - 10.10.32.255 共 xxx 个地址
+        </div>
+      </div>
+      <br />
+      <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-5">
+          <select multiple class="form-control multiple">
+            <option>不拆分</option>
+            <option>拆分为2份，每份 XXX 个</option>
+            <option>拆分为4份，每份 XXX 个</option>
+            <option>拆分为8份，每份 XXX 个</option>
+            <option>拆分为32份，每份 XXX 个</option>
+          </select>
+        </div>
+        <div class="col-md-5">
+          <select multiple class="form-control multiple">
+            <option>10.10.1.0 - 10.10.32.255</option>
+          </select>
+        </div>
+        <div class="col-md-1"></div>
+      </div>
+      <br />
+      <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-4">
+          <a href="#" class="btn btn-default">上一步</a>
+        </div>
+        <div class="col-md-2"></div>
+        <div class="col-md-4 text-right">
+          <a href="#" class="btn btn-default">下一步</a>
+        </div>
+        <div class="col-md-1"></div>
+      </div>
+      <br />
+    </div>
+
+  </body>
+</html>
