@@ -7272,3 +7272,16 @@ a.panel-location.location-warning:hover .location-btn {
 .index-guide .feature a:hover h4{
   color: #FFF;
 }
+
+.guide-page .row img{
+  width: 95%;
+  border: 1px #ccc solid;
+  padding: 5px;
+  border-radius: 2px;
+  margin-bottom: 20px;
+}
+.guide-page .row .blade {
+  position: absolute;
+  top: 10px;
+  left: 28px;
+}
