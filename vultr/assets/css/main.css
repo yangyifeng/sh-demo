@@ -7285,3 +7285,8 @@ a.panel-location.location-warning:hover .location-btn {
   top: 10px;
   left: 28px;
 }
+.guide-page .pic {
+  width: 600px;
+  margin: 0 auto;
+  max-width: 90%;
+}
