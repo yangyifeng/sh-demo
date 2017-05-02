@@ -7261,8 +7261,24 @@ a.panel-location.location-warning:hover .location-btn {
 	}
 }
 
+.index-guide .feature {
+  float: left;
+  width: 14%;
+  padding: 0;
+  text-align: center;
+  margin-bottom: 0;
+}
+@media (max-width: 767px) and (min-width: 0px){
+  .index-guide .feature{
+    width: 50%;
+  }
+}
+.index-guide .feature a{
+  display: block;
+  margin: 0 20px;
+}
 .index-guide .feature img {
-  width: 100px;
+  width: 50px;
 }
 .index-guide .feature h4{
   margin-top: 20px;
