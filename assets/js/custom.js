@@ -6,9 +6,9 @@ var memberUrl = "http://scrm-mb.shanghaik11.com/web/rlLLYghP/center?code=041OtM9
 
 //图片路径，加载完图片再开始
 var images = [
-  'http://localhost/github/sh-demo/assets/images/welcome-3.png',
-  'http://localhost/github/sh-demo/assets/images/welcome-4-member.png',
-  'http://localhost/github/sh-demo/assets/images/welcome-4-not-member.png',
+  'https://yangyifeng.github.io/sh-demo/assets/images/welcome-3.png',
+  'https://yangyifeng.github.io/sh-demo//assets/images/welcome-4-member.png',
+  'https://yangyifeng.github.io/sh-demo/assets/images/welcome-4-not-member.png',
 ];
 
 var flow = {
