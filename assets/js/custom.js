@@ -81,7 +81,7 @@ $(document).ready(function(){
     flow.pics = images;
     flow.getPic();
 
-
+/*
 
   //先获取登录信息: 登录与未登录显示的最后一屏内容不一样
   get(apiMember, {}, function(cb){
@@ -101,5 +101,6 @@ $(document).ready(function(){
   }, function(er){
     console.log(er)
   });
+*/
 
 });
