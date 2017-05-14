@@ -72,6 +72,17 @@ var flow = {
 
 $(document).ready(function(){
 
+
+   //是注册用户
+    $('.p-4').addClass('welcome-p-4-member');
+    $('.welcome-go.last').attr('href', memberUrl);
+
+    //开始
+    flow.pics = images;
+    flow.getPic();
+
+
+
   //先获取登录信息: 登录与未登录显示的最后一屏内容不一样
   get(apiMember, {}, function(cb){
     console.log(cb);
