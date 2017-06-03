@@ -1,6 +1,21 @@
+@font-face {
+    font-family: 'Conv_HelveticaNeueLTStd-UltLtEx';
+    src: url('../fonts/HelveticaNeueLTStd-UltLtEx.eot');
+    src: url('../fonts/HelveticaNeueLTStd-UltLtEx.woff') format('woff'), url('../fonts/HelveticaNeueLTStd-UltLtEx.ttf') format('truetype'), url('../fonts/HelveticaNeueLTStd-UltLtEx.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Conv_helr45w';
+    src: url('../fonts/helr45w.eot');
+    src: url('../fonts/helr45w.woff') format('woff'), url('../fonts/helr45w.ttf') format('truetype'), url('../fonts/helr45w.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
 body{
-    font-family: 'Helvetica Neue',Helvetica,'Lantinghei SC','Hiragino Sans GB','Microsoft YaHei',"微软雅黑",STHeiti,'WenQuanYi Micro Hei',SimSun,sans-serif;
-    font-weight: 200;
+    font-family:'Conv_helr45w',Sans-Serif;
     letter-spacing: 1px;
 }
 
@@ -25,10 +40,6 @@ a:hover{
     background: transparent;
     border: 0;
 }
-.navbar-inverse.black{
-    background: #000;
-    border: 0;
-}
 .navbar-fixed-top .lang{
     margin-top: -5px;
 }
@@ -43,7 +54,7 @@ a:hover{
 }
 .navbar-fixed-top .dropdown-menu>li>a{
     color: #75747a;
-    background-color: rgba(0,0,0,.3);
+    background-color: #000;
     border-left: 1px #114ab6 solid;
     text-align: left;
     padding: 3px 15px 10px 15px;
@@ -55,27 +66,49 @@ a:hover{
     color: #FFF;
 }
 
+.navbar-inverse.black{
+    background: #000;
+    border: 0;
+    -webkit-transition-property: background-color;
+    -webkit-transition-duration: 1s;
+    -webkit-transition-timing-function: ease;
+}
+
+.black .navbar-brand{
+    padding: 10px 5px 0 5px;
+}
 
 .one{
-    background: url(../images/earth.gif) no-repeat;
+    background: url(../images/earth.jpg) no-repeat;
     background-size: cover;
+    position: relative;
 }
 .one .text{
     position: absolute;
-    z-index: 10;
+    z-index: 0;
     width: 100%;
     height: 100%;
     top: 0;
     text-align: center;
 }
+#particles-js {
+    position: relative;
+    z-index: 1;
+}
 .one .text h3{
+    font-family: 'Conv_HelveticaNeueLTStd-UltLtEx',Sans-Serif;
     color: #FFF;
-    font-size: 50px;
+    font-size: 60px;
     text-align: center;
-    font-weight: 100;
     position: relative;
     top:40%;
     transform:translateY(-40%);
+}
+.one .arrow-down{
+    position: absolute;
+    left: 50%;
+    margin-right: -20px;
+    bottom: 20px;
 }
 .two{
     background: url(../images/bg-white.jpg) no-repeat;
@@ -85,14 +118,6 @@ a:hover{
     margin: 0 auto;
     width: 100%;
     max-width: 650px;
-}
-.two .chepsets h1{
-    color: #062438;
-    font-size: 50px;
-    font-weight: 100;
-    text-align: center;
-    line-height: 80px;
-    margin-bottom: 40px;
 }
 .two .chepsets .row{
     max-width: 420px;
@@ -108,6 +133,18 @@ a:hover{
     background: none;
     right: 20px;
 }
+.two h1{
+    font-family: 'Conv_HelveticaNeueLTStd-UltLtEx',Sans-Serif;
+    font-size: 60px;
+    color: #000;
+    text-align: center;
+    line-height: 100px;
+    margin-bottom: 50px;
+}
+.two .swiper-button-next, 
+.two .swiper-button-prev{
+    margin-top: -52px;
+}
 
 
 .three{
@@ -122,13 +159,13 @@ a:hover{
     max-width: 90%;
 }
 .three h1{
+    font-family: 'Conv_HelveticaNeueLTStd-UltLtEx',Sans-Serif;
     color: #478cff;
-    font-size: 40px;
-    font-weight: 100;
+    font-size: 50px;
     margin-bottom: 80px;
 }
 .three p{
-    line-height: 28px;
+    line-height: 24px;
     color: #FFF;
 }
 .three .more{
@@ -149,13 +186,13 @@ a:hover{
     max-width: 70%;
 }
 .four h1{
+    font-family: 'Conv_HelveticaNeueLTStd-UltLtEx',Sans-Serif;
     color: #062438;
-    font-size: 40px;
-    font-weight: 100;
+    font-size: 50px;
     margin-bottom: 80px;
 }
 .four p{
-    line-height: 28px;
+    line-height: 24px;
     color: #062438;
 }
 .four .more{
@@ -193,7 +230,7 @@ a:hover{
     width: 25px;
     height: 25px;
     background-size: 100%;
-    margin-bottom: 12px;
+    margin-bottom: 32px;
 }
 #fp-nav ul li:nth-child(1){
     background: url(../images/slider-1.png) no-repeat;
@@ -214,6 +251,7 @@ a:hover{
 #fp-nav ul li:nth-child(5){
     background: url(../images/slider-5.png) no-repeat;
     background-size: 100%;
+    display: none;
 }
 #fp-nav ul li a.active{
     background: transparent;
@@ -223,6 +261,10 @@ a:hover{
 #fp-nav ul li a span, 
 .fp-slidesNav ul li a span{
     background: transparent;
+}
+
+.bottom-btn{
+    text-align: left;
 }
 
 @media (min-width: 768px){
@@ -235,11 +277,17 @@ a:hover{
     .navbar-nav>li {
         margin-right: 20px;
     }
+    .black.navbar-inverse{
+        padding: 0px 20px;
+    }
+    .black .navbar-nav{
+        margin-top: 0px;
+    }
 }
 
 @media (max-width: 768px){
     .one .text h3{
-        font-size: 45px;
+        font-size: 40px;
     }
     .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
         border: none;
@@ -271,9 +319,9 @@ a:hover{
         top: inherit;
         bottom: 10px;
     }
-    .two .chepsets h1 {
-        font-size: 35px;
-        line-height: 55px;
+    .two h1 {
+        font-size: 28px;
+        line-height: 42px;
     }
     .two .chepsets .row{
         text-align: center;
@@ -325,5 +373,8 @@ a:hover{
     }
     .foot .text-center{
         padding-top: 15px;
+    }
+    .bottom-btn{
+        text-align: center;
     }
 }

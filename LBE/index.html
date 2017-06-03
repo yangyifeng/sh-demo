@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/css/jquery.fullpage.css">
     <link rel="stylesheet" href="./assets/css/swiper.min.css">
+    <link rel="stylesheet" href="./assets/css/animate.min.css">
     <link rel="stylesheet" href="./assets/css/custom.css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -60,14 +61,15 @@
     
     <div id="fullpage">
       <div class="section one">
+        <div class="text"><h3>LEARN AND INSPIRE WITH <strong>LBE</strong></h3></div>
+        <img src="./assets/images/arrow-down.png" class="arrow-down" />
         <div id="particles-js"></div>
-        <div class="text"><h3>LEARN AND INSPIRE WITH LBE</h3></div>
       </div>
       <div class="section two">
+        <h1>Cutting - Edge<br />Embedded Chipseets</h1>
         <div class="swiper-container chepsets">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                  <h1>Cutting-Edge <br /> Embedded Chipsets</h1>
                   <div class="row">
                     <div class="col-md-5"><img src="./assets/images/rk3399.png" width="150" /></div>
                     <div class="col-md-7">
@@ -80,7 +82,6 @@
                   </div>
                 </div>
                 <div class="swiper-slide">
-                  <h1>Cutting-Edge <br /> Embedded Chipsets</h1>
                   <div class="row">
                     <div class="col-md-5"><img src="./assets/images/rk1608.png" width="150" /></div>
                     <div class="col-md-7">
@@ -92,7 +93,6 @@
                   </div>
                 </div>
                 <div class="swiper-slide">
-                  <h1>Cutting-Edge <br /> Embedded Chipsets</h1>
                   <div class="row">
                     <div class="col-md-5"><img src="./assets/images/rv1108.png" width="150" /></div>
                     <div class="col-md-7">
@@ -121,7 +121,7 @@
                 Support Single or Dual Panel Display, High Resolution, High Refresh Rate<br />
                 Specialized Rockchip VR Engine, Optical Distortion Correction, Low Latency
               </p>
-              <a href="#" class="more">Learn More</a>
+              <div class="bottom-btn"><a href="#" class="more">Learn More</a></div>
             </div>
           </div>
         </div>
@@ -136,7 +136,7 @@
                 Seamless Video Stitching Image Enhancement<br />
                 Share to SNS with One Click Various Viewing Modes
               </p>
-              <a href="#" class="more">Learn More</a>
+              <div class="bottom-btn"><a href="#" class="more">Learn More</a></div>
             </div>
             <div class="col-md-6"><img src="./assets/images/camera.png" class="vrar" /></div>
           </div>
@@ -167,8 +167,8 @@
             </div>
           </div>
           <div class="text-center">
-            copyright 2015-2016 北京格灵深瞳信息技术有限公司<br />
-            京ICP备14024496
+            copyright 20xx-20xx LEARN AND INSPIRE WITH LBE<br />
+            京ICP备OOOOOOXXXX
           </div>
         </div>
       </div>
@@ -200,25 +200,21 @@
         });
 
         new Swiper ('.swiper-container', {
-          pagination: '.swiper-pagination',
-          direction: 'horizontal',
-          paginationClickable: true,
-          nextButton: '.swiper-button-next',
-          prevButton: '.swiper-button-prev',
-          spaceBetween: 30,
-          onInit: function(swiper){}, 
-          onSlideChangeEnd: function(swiper){} 
-      });
+            pagination: '.swiper-pagination',
+            direction: 'horizontal',
+            paginationClickable: true,
+            nextButton: '.swiper-button-next',
+            prevButton: '.swiper-button-prev',
+            spaceBetween: 30,
+            onInit: function(swiper){}, 
+            onSlideChangeEnd: function(swiper){} 
+        });
 
         $('li.dropdown').mouseover(function() {   
             $(this).addClass('open');
         }).mouseout(function() {
             $(this).removeClass('open');
         }); 
-
-
-        $('.tow .fp-controlArrow.fp-prev').css({left: '20%'});
-        $('.tow .fp-controlArrow.fp-next').css({right: '20%'});
 
       });
     </script>
