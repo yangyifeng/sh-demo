@@ -44,7 +44,7 @@ a:hover{
     margin-top: -5px;
 }
 .navbar-fixed-top .dropdown-menu{
-    background: transparent url(../images/top-menu-bg.png) no-repeat;
+    background: transparent url(../images/top-menu-bg-black.png) no-repeat;
     padding: 13px 0 0 13px;
     box-shadow: none;
     min-width: inherit;
@@ -109,6 +109,8 @@ a:hover{
     left: 50%;
     margin-right: -20px;
     bottom: 20px;
+    cursor: pointer;
+    z-index: 2;
 }
 .two{
     background: url(../images/bg-white.jpg) no-repeat;

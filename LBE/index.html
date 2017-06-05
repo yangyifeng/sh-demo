@@ -62,8 +62,8 @@
     <div id="fullpage">
       <div class="section one">
         <div class="text"><h3>LEARN AND INSPIRE WITH <strong>LBE</strong></h3></div>
-        <img src="./assets/images/arrow-down.png" class="arrow-down" />
         <div id="particles-js"></div>
+        <img src="./assets/images/arrow-down.png" class="arrow-down" />
       </div>
       <div class="section two">
         <h1>Cutting - Edge<br />Embedded Chipseets</h1>
@@ -197,6 +197,11 @@
               $('.navbar-inverse').addClass('black');
             }
           }
+        });
+
+        $('.arrow-down').click(function(){
+          console.log('aaa')
+          $.fn.fullpage.moveSectionDown();
         });
 
         new Swiper ('.swiper-container', {
