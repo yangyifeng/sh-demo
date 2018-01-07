@@ -1,0 +1,114 @@
+*{padding: 0;margin: 0}
+ul,li {list-style: none;}
+body,html{width: 100%;height: 100%;overflow: hidden;color:#666;font-size: 14px;}
+a{text-decoration: none;}
+.head{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background-color:#fcdb00; 
+    text-align: center;
+    border-bottom: 1px #e3c604 dashed;
+}
+.head img{
+    position: absolute;
+    top: 8px;
+    left: 10px;
+    width: 50px;
+}
+.head p{
+    padding: 8px 10px 0 0;
+    text-align: right;
+}
+.top-nav{
+    background-color:#fcdb00; 
+    padding-top: 60px;
+    height: 40px;
+}
+.top-nav ul{
+    padding: 0 10px;
+}
+.top-nav ul li{
+    float: left;
+    display: block;
+}
+.top-nav ul li a{
+    color: #666;
+    display: block;
+    padding: 12px 15px 5px 15px;
+}
+.top-nav ul li.active a{
+    border-bottom: 3px #666 solid;
+}
+.main-body{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+    padding-left:80px;
+}
+.scroll-box{
+    height: 100%;
+    overflow: scroll;
+}
+.main-body > .left{
+    float: left;
+    width: 80px;
+    margin-left: -80px;
+    height: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.main-body > .left ul{
+    padding-bottom: 100px;
+}
+.main-body > .left ul li{
+    display: block;
+    width: 79px;
+    height: 80px;
+    border-right: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
+}
+.main-body > .left ul li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: #666;
+}
+.main-body > .left ul li a img{
+    height: 50px;
+    margin-top: 5px;
+}
+.main-body > .left ul li a p{
+    margin-top: -15px;
+}
+.main-body > .left ul li.active{
+    border-left: 3px #3782ff solid;
+    background-color: #f4f4f4;
+    border-right-color: #f4f4f4;
+}
+
+.main-body > .right{
+    float: left;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+    background: #f4f4f4;
+}
+.main-body > .right > div > div{
+    padding: 10px;
+    height: 60px;
+    border-bottom: 1px solid #e6e6e6;
+}
+.main-body > .right > div > div p{
+    text-indent: 2em;
+}
+.main-body > .right > div > div p span{
+    color: #FF0000;
+    font-size: 30px;
+    font-weight:bolder;
+}
